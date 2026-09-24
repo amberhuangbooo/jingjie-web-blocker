@@ -1,0 +1,8 @@
+# Chrome 在加载本地扩展时生成的缓存
+_metadata/
+
+# macOS 文件
+.DS_Store
+
+# 手工复制的描述文件，不发布副本
+*_副本.mobileconfig

@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "清净网页屏蔽器",
+  "description": "根据本地 blocklist.txt 生成规则的简洁网页屏蔽器。",
+  "version": "2.0.0",
+  "minimum_chrome_version": "101",
+  "permissions": [
+    "activeTab",
+    "clipboardWrite",
+    "declarativeNetRequest"
+  ],
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "generated_blocklist",
+        "enabled": true,
+        "path": "generated/chrome-rules.json"
+      }
+    ]
+  },
+  "action": {
+    "default_title": "清净网页屏蔽器",
+    "default_popup": "popup.html"
+  },
+  "options_page": "options.html"
+}

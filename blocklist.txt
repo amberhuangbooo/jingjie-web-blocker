@@ -1,0 +1,66 @@
+# 清净网页屏蔽器：唯一的屏蔽名单
+# 每行填写一个域名，不要填写具体网页路径。
+# 修改后双击“生成屏蔽配置.command”。
+
+# 你指定的网站
+bad.news
+91porna.com
+91porn.com
+xvideos.com
+pornhub.com
+51cg1.com
+91cg1.com
+
+# 常见“吃瓜”域名及其常见主域名
+51cg.com
+91cg.com
+
+# 成人视频网站
+xnxx.com
+xhamster.com
+redtube.com
+youporn.com
+tube8.com
+spankbang.com
+beeg.com
+tnaflix.com
+porntrex.com
+hqporner.com
+eporner.com
+
+# 成人内容品牌及会员网站
+brazzers.com
+bangbros.com
+naughtyamerica.com
+realitykings.com
+mofos.com
+digitalplayground.com
+onlyfans.com
+fansly.com
+
+# 成人直播网站
+chaturbate.com
+stripchat.com
+livejasmin.com
+bongacams.com
+cam4.com
+myfreecams.com
+
+# 成人图片、社区、动漫内容
+motherless.com
+erome.com
+fapello.com
+nhentai.net
+rule34.xxx
+hanime.tv
+e-hentai.org
+exhentai.org
+
+# 亚洲成人内容及 JAV 网站
+missav.com
+javdb.com
+javbus.com
+javlibrary.com
+jable.tv
+avgle.com
+thisav.com

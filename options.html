@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>清净网页屏蔽器 · 黑名单管理</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body class="options-page">
+    <main class="options-card">
+      <p class="eyebrow">设置</p>
+      <h1>网站黑名单</h1>
+      <p class="description">
+        下面显示的是由 <code>blocklist.txt</code> 生成的名单。修改源文件后，双击
+        <code>生成屏蔽配置.command</code>，再到扩展管理页重新加载插件。
+      </p>
+
+      <label for="domains">当前生成的域名</label>
+      <textarea
+        id="domains"
+        rows="14"
+        spellcheck="false"
+        readonly
+        placeholder="当前名单为空"
+      ></textarea>
+
+      <div class="actions">
+        <button id="copy" class="primary" type="button">复制全部域名</button>
+      </div>
+      <p id="status" class="status" role="status"></p>
+    </main>
+    <script src="options.js"></script>
+  </body>
+</html>

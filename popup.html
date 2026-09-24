@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>清净网页屏蔽器</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body class="popup-page">
+    <main class="popup-card">
+      <div class="title-row">
+        <div>
+          <p class="eyebrow">本地运行</p>
+          <h1>清净网页屏蔽器</h1>
+        </div>
+        <label class="switch" aria-label="启用网页屏蔽">
+          <input id="enabled" type="checkbox">
+          <span class="slider"></span>
+        </label>
+      </div>
+
+      <section class="current-site">
+        <span>当前网站</span>
+        <strong id="current-domain">无法读取</strong>
+      </section>
+
+      <button id="copy-current" class="primary" type="button">
+        复制当前域名
+      </button>
+      <p id="status" class="status" role="status"></p>
+
+      <button id="open-options" class="link-button" type="button">
+        查看当前黑名单
+      </button>
+    </main>
+    <script src="popup.js"></script>
+  </body>
+</html>
